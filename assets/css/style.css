@@ -1,0 +1,51 @@
+/* RGB
+$color1: rgba(89, 50, 49, 1);
+$color2: rgba(234, 206, 206, 1);
+$color3: rgba(168, 155, 154, 1);
+$color4: rgba(130, 98, 97, 1);
+$color5: rgba(178, 136, 135, 1);
+*/
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header
+{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 100%;
+	background-color: rgba(168, 155, 154, 1);
+}
+header > p
+{
+	margin-left: 1em;
+}
+header > nav
+{
+	margin: 0 1em;
+}
+header > nav > ul
+{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+header > nav > ul > li
+{
+	list-style: none;
+	width: 100px;
+	text-align: center;
+	border: solid 1px black;
+	background-color: rgba(89, 50, 49, 1);
+}
+header > nav > ul > li > a
+{
+	text-decoration: none;
+	white-space: nowrap;
+	color: white;
+	margin: 1em auto;
+}
