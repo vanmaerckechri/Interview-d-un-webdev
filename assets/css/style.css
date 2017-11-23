@@ -28,6 +28,20 @@ $color5: rgba(178, 136, 135, 1);
     	transform: perspective(200px) rotateY(-45deg);
     }
 }
+@keyframes backHome {
+    0% {
+    	 transform: perspective(200px) rotateX(0deg);
+	}
+    33% {
+    	transform: perspective(200px) rotateX(45deg);
+    }
+    66% {
+    	 transform: perspective(200px) rotateX(0deg);
+	}
+    100% {
+    	transform: perspective(200px) rotateX(-45deg);
+    }
+}
 
 *
 {
@@ -47,6 +61,7 @@ body
 }
 header
 {
+	margin-bottom: 1em;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -86,14 +101,15 @@ header > nav > ul > li > a:hover .menuEffet
 }
 footer
 {
+	display: flex;
+	justify-content: center;
 	width: 100%;
-	text-align: center;
 }
 footer > a
 {
 	margin: 0 1em;
 }
-footer > a span:hover
+footer > a.social span:hover
 {
 	color: rgba(178, 136, 135, 1);
 	animation-name: social;
@@ -101,6 +117,25 @@ footer > a span:hover
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     animation-direction: alternate;
+}
+footer > a#backHome
+{
+	margin-left: 3em;
+}
+footer > a#backHome span:hover
+{
+	color: rgba(178, 136, 135, 1);
+	animation-name: backHome;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+#logo
+{
+
+    font-family: 'Lobster', cursive;
+	font-weight: 900;
 }
 #accueil
 {
@@ -138,4 +173,20 @@ footer > a span:hover
 {
 	width: 1%;
 	height: 3px;
+}
+
+@media (max-width: 681px)
+{
+	header > nav
+	{
+		margin: 1em auto;
+	}
+	header > nav > ul
+	{
+		justify-content: center;
+	}
+	header > nav > ul
+	{
+		flex-wrap: wrap;
+	}	
 }
