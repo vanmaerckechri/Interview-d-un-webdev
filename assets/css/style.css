@@ -58,6 +58,8 @@ body
 	justify-content: space-between;
 	padding: 1em;
 	min-height: 100vh;
+	background-size: cover;
+    background-repeat: no-repeat;
 }
 header
 {
@@ -140,8 +142,22 @@ footer > a#backHome span:hover
 #accueil
 {
 	background-image: url(../images/accueil-bg.jpg);
-	background-size: cover;
-    background-repeat: no-repeat;
+}
+#entreprise
+{
+	background-image: url(../images/entreprise-bg.jpg);
+}
+#makingof
+{
+	background-image: url(../images/makingof-bg.jpg);
+}
+#interview
+{
+	background-image: url(../images/interview-bg.jpg);
+}
+#conclusion
+{
+	background-image: url(../images/conclusion-bg.jpg);
 }
 #main
 {
