@@ -137,7 +137,6 @@ footer > a#backHome span:hover
 {
 
     font-family: 'Lobster', cursive;
-	font-weight: 900;
 }
 #accueil
 {
@@ -178,19 +177,58 @@ footer > a#backHome span:hover
 #main > section > h2
 {
 	font-size: 1.5em;
+	margin-bottom: .3em;
 	font-family: 'Josefin Slab', serif;
 }
-#main > section > p
+#main > section > p,
 {
 	font-size: 1em;
 	margin-bottom: .3em;
 }
+
 .menuEffet
 {
 	width: 1%;
 	height: 3px;
 }
 
+/* PAGE INTERVIEW */
+#interview > #main > h1
+{
+	margin-top: 2em;
+}
+
+#interview > #main > h1
+{
+	text-align: right;
+}
+#interview > #main > section > h2
+{
+	margin-bottom: 1em;
+	text-align: left;
+}
+#interview > #main > section
+{
+	padding-bottom: 1em;
+	border-bottom: solid 2px rgba(234, 206, 206, .5);
+}
+#interview > #main > section:last-child
+{
+	border-bottom: none;
+}
+#interview > #main > section > p
+{
+	text-align: left;
+	font-weight: bold;
+}
+#interview > #main > section > p.reponses
+{
+	margin: 1em 0;
+	padding-left: .5em;
+	font-weight: normal;
+}
+
+/* RESPONSIVE */
 @media (max-width: 681px)
 {
 	header > nav
