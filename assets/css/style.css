@@ -53,9 +53,11 @@ $color5: rgba(178, 136, 135, 1);
 }
 body
 {
+	margin: 0 auto;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+	max-width: 960px;
 	min-height: 100vh;
 	border-top: 3px solid pink;
 }
@@ -67,7 +69,7 @@ header
 	justify-content: space-between;
 	align-items: center;
 	flex-wrap: wrap;
-	width: 960px;
+	width: 100%;
 	background-color: pink;
 	border-bottom-left-radius: 20px;
 	border-bottom-right-radius: 20px;
@@ -77,11 +79,13 @@ footer
 {
 	text-align: center;
 	width: 100%;
+	padding-bottom: 1em;
 }
 
 h1
 {
 	font-size: 2em;
+	margin-top: 1em;
 	margin-bottom: 1em;
     font-family: 'Josefin Slab', serif;
 }
@@ -109,7 +113,6 @@ a
 nav ul
 {
 	display: flex;
-	align-items: flex-start;
 }
 nav li
 {
@@ -203,7 +206,7 @@ a#backHome span:hover
 {
 	margin: 0 auto;
 	padding: 0 1em;
-	max-width: 960px;
+	max-width: 100%;
 	text-align: center;
 }
 
@@ -219,7 +222,7 @@ a#backHome span:hover
 	color: white;
 	border-radius: 50%;
 	border:2px solid  #63C3D1;
-	transition: all .5s;
+	transition: all 1s;
 }
 .becode:hover
 {
@@ -252,7 +255,6 @@ a#backHome span:hover
 /* PAGE INTERVIEW */
 #interview h1
 {
-	margin-top: 1em;
 	text-align: right;
 }
 #interview h2
@@ -284,18 +286,21 @@ a#backHome span:hover
 }
 
 /* RESPONSIVE */
-@media (max-width: 681px)
+@media (max-width: 697px)
 {
-	header > nav
+	header
 	{
-		margin: 1em auto;
+		justify-content: space-around;
 	}
-	header > nav > ul
+	nav a
 	{
-		justify-content: center;
+		padding: .5em;
 	}
-	header > nav > ul
+}
+@media (max-width: 550px)
+{
+	nav li
 	{
-		flex-wrap: wrap;
-	}	
+		width: auto;
+	}
 }
