@@ -2,7 +2,7 @@
 
 ## La Victime de l'Interview
 
-[Raphaël Goetter](https://goetter.fr/), fondateur d'[Alsacréation](https://www.alsacreations.com/) que je remercie encore pour avoir joué le jeu.
+[Raphaël Goetter](https://goetter.fr/), fondateur d'[Alsacréation](https://www.alsacreations.com/), que je remercie encore pour avoir joué le jeu.
 
 ## Les Consignes
 
