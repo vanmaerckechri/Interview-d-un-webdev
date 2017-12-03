@@ -1,9 +1,5 @@
 # INTERVIEW WEBDEV - RAPHAEL GOETTER *beta*
 
-## Apperçu
-
-![Photographie de l'équipe Jaqueline et les Garçons](https://vanmaerckechri.github.io/exercice-9-team-presentation/assets/images/team.jpg)
-
 ## La Victime de l'Interview
 
 [Raphaël Goetter](https://goetter.fr/), fondateur d'[Alsacréation](https://www.alsacreations.com/) que je remercie encore pour avoir joué le jeu.
