@@ -364,6 +364,15 @@ a#backHome span:hover
 	    visibility: hidden;
 	    transition: visibility 0.5s;
 	}
+	#interview p, #interview h1
+	{
+		text-align: center!important;
+	}
+	#interview h2, h2
+	{
+		text-align: center!important;
+		background-image: linear-gradient(to right, rgba(255, 192, 203, .7), rgba(255, 192, 203, .7));
+	}
 }
 @media (max-width: 366px)
 {
