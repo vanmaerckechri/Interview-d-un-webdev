@@ -333,7 +333,7 @@ a#backHome span:hover
 	nav::before
 	{
 		display: inline-block;
-	    content: "MENU";
+	    content: "OUVRIR";
 	    background-color: black;
 	    text-align: center;
 	    color: white;
@@ -345,6 +345,10 @@ a#backHome span:hover
 	{
 	    background-color: white;
 	    color: black;
+	}
+	nav:focus::before
+	{
+		content: "FERMER";
 	}
 	nav:focus
 	{
