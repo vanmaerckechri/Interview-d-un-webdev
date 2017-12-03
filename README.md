@@ -1,4 +1,4 @@
-# INTERVIEW WEBDEV - RAPHAEL GOETTER *beta*
+# INTERVIEW WEBDEV - RAPHAEL GOETTER *(v0.8)*
 
 ## La Victime de l'Interview
 
