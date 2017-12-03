@@ -6,14 +6,7 @@ $color4: rgba(130, 98, 97, 1);
 $color5: rgba(178, 136, 135, 1);
 */
 
-@keyframes menu {
-    0% {
-    	width: 1%;
-    }
-    100% {
-    	width: 100%;
-    }
-}
+
 @keyframes social {
     0% {
     	 transform: perspective(200px) rotateY(0deg);
@@ -43,75 +36,138 @@ $color5: rgba(178, 136, 135, 1);
     }
 }
 
+@keyframes menu {
+	0% {
+		background-color: rgba(255, 0, 0, 0);
+	}
+	100% {
+		background-color: rgba(255, 0, 0, .5);
+	}
+}
+
 *
 {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	color: rgba(234, 206, 206, .9);
-    font-family: 'Raleway', sans-serif;
 }
 body
 {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	padding: 1em;
 	min-height: 100vh;
-	background-size: cover;
-    background-repeat: no-repeat;
+	border-top: 3px solid pink;
 }
 header
 {
-	margin-bottom: 1em;
+	margin: 0 auto;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	flex-wrap: wrap;
+	width: 960px;
+	background-color: pink;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+footer
+{
+	text-align: center;
 	width: 100%;
 }
-header > p
+
+h1
 {
+	font-size: 2em;
+	margin-bottom: 1em;
+    font-family: 'Josefin Slab', serif;
 }
-header > nav
+h2
 {
+	font-size: 1.5em;
+	margin-bottom: .3em;
+	font-family: 'Josefin Slab', serif;
 }
-header > nav > ul
+p
+{
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	font-weight: 400;
+	line-height: 1.5em;
+}
+a
+{
+	text-decoration: none;
+	white-space: nowrap;
+	color: black;
+	transition: all .5s;
+}
+nav ul
 {
 	display: flex;
 	align-items: flex-start;
 }
-header > nav > ul > li
+nav li
 {
 	list-style: none;
 	width: 100px;
+	height: 100%;
 	text-align: center;
 }
-header > nav > ul > li > a
-{
-	text-decoration: none;
-	white-space: nowrap;
-}
-header > nav > ul > li > a:hover .menuEffet
-{
 
-	background-color: rgba(168, 155, 154, 1);
-	animation-name: menu;
-    animation-duration: 1s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-}
-footer
+/* MENU PRINCIPAL ANIMATION */
+nav a
 {
-	display: flex;
-	justify-content: center;
+	position: relative;
+	display: inline-block;
+	padding: 1em;
+}
+nav a::before
+{
+	content:'';
+	position: absolute;
+	left: 0px;
+	top: 100%;
+	height: 1px;
+	width: 0%;
+	background-color: red;
+	transition: all .5s;
+}
+nav a:hover::before
+{
 	width: 100%;
 }
-footer > a
+nav a::after
+{
+	content:'';
+	position: absolute;
+	right: 0%;
+	top: 0%;
+	height: 1px;
+	width: 0%;
+	background-color: red;
+	transition: width .5s;
+}
+nav a:hover::after
+{
+	width: 100%;
+}
+nav a:hover
+{
+	animation: 1s linear .5s forwards menu;
+}
+
+/* MENU SOCIAL */
+footer a
 {
 	margin: 0 1em;
 }
-footer > a.social span:hover
+footer span
+{
+	transition: all 2s;
+}
+a.social span:hover
 {
 	color: rgba(178, 136, 135, 1);
 	animation-name: social;
@@ -120,11 +176,11 @@ footer > a.social span:hover
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
-footer > a#backHome
+a#backHome
 {
 	margin-left: 3em;
 }
-footer > a#backHome span:hover
+a#backHome span:hover
 {
 	color: rgba(178, 136, 135, 1);
 	animation-name: backHome;
@@ -133,99 +189,71 @@ footer > a#backHome span:hover
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
+
 #logo
 {
 
     font-family: 'Lobster', cursive;
-}
-#accueil
-{
-	background-image: url(../images/accueil-bg.jpg);
-}
-#entreprise
-{
-	background-image: url(../images/entreprise-bg.jpg);
-}
-#makingof
-{
-	background-image: url(../images/makingof-bg.jpg);
-}
-#interview
-{
-	background-image: url(../images/interview-bg.jpg);
-}
-#conclusion
-{
-	background-image: url(../images/conclusion-bg.jpg);
+    font-weight: 400;
+    padding: 1em;
 }
 #main
 {
 	margin: 0 auto;
+	padding: 0 1em;
 	max-width: 960px;
 	text-align: center;
 }
-#main > h1
-{
-	font-size: 2em;
-	margin-bottom: 1em;
-    font-family: 'Josefin Slab', serif;
-}
-#main > section
+
+#main section
 {
 	margin-bottom: 2em;
 }
-#main > section > h2
-{
-	font-size: 1.5em;
-	margin-bottom: .3em;
-	font-family: 'Josefin Slab', serif;
-}
-#main > section > p,
-{
-	font-size: 1em;
-	margin-bottom: .3em;
-}
 
-.menuEffet
+/* PAGE ENTREPRISE */
+
+#entreprise h2 a
 {
-	width: 1%;
-	height: 3px;
+	padding: .25em;
+	border-radius: 5px;
+	background-color: #4B4A4A;
+	color: white;
+	transition: all .5s;
+}
+#entreprise h2 a:hover
+{
+	background-color: black;
+	color: #ABC738;
 }
 
 /* PAGE INTERVIEW */
-#interview > #main > h1
+#interview h1
 {
-	margin-top: 2em;
-}
-
-#interview > #main > h1
-{
+	margin-top: 1em;
 	text-align: right;
 }
-#interview > #main > section > h2
+#interview #main p, #interview h2
 {
 	margin-bottom: 1em;
 	text-align: left;
 }
-#interview > #main > section
+#interview #main p
+{
+	font-weight: 600;
+}
+#interview #main .reponses
+{
+	padding-left: 1em;
+	font-weight: 400;
+}
+#interview section
 {
 	padding-bottom: 1em;
-	border-bottom: solid 2px rgba(234, 206, 206, .5);
+	border-bottom: solid 2px rgba(0, 0, 0, .5);
 }
-#interview > #main > section:last-child
+#interview section:last-child
 {
 	border-bottom: none;
-}
-#interview > #main > section > p
-{
-	text-align: left;
-	font-weight: bold;
-}
-#interview > #main > section > p.reponses
-{
-	margin: 1em 0;
-	padding-left: 1em;
-	font-weight: normal;
 }
 
 /* RESPONSIVE */
