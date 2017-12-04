@@ -1,0 +1,40 @@
+@import "variables";
+
+/* ANIMATIONS */
+@keyframes social {
+    0% {
+    	 transform: perspective(200px) rotateY(0deg);
+	}
+    33% {
+    	transform: perspective(200px) rotateY(45deg);
+    }
+    66% {
+    	 transform: perspective(200px) rotateY(0deg);
+	}
+    100% {
+    	transform: perspective(200px) rotateY(-45deg);
+    }
+}
+@keyframes backHome {
+    0% {
+    	 transform: perspective(200px) rotateX(0deg);
+	}
+    33% {
+    	transform: perspective(200px) rotateX(45deg);
+    }
+    66% {
+    	 transform: perspective(200px) rotateX(0deg);
+	}
+    100% {
+    	transform: perspective(200px) rotateX(-45deg);
+    }
+}
+
+@keyframes menu {
+	0% {
+		background-color: rgba(255, 0, 0, 0);
+	}
+	100% {
+		background-color: rgba(255, 0, 0, .2);
+	}
+}
