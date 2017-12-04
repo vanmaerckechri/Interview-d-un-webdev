@@ -1,18 +1,44 @@
+// Font-Family
 $titreFont: 'Josefin Slab', serif;
 $paragrapheFont: 'Raleway', sans-serif;
 $logoFont: 'Lobster', cursive;
 
-$menuColorHoverBorder: rgb(255, 0, 0);
-$menuColorHoverBgInv: rgba(255, 0, 0, 0);
-$menuColorHoverBgLight: rgba(255, 0, 0, .2);
-
+// Couleur du Menu
 $menuColor: rgb(255, 192, 203);
-$titreColorBgCentre: linear-gradient(to right, rgba(255, 192, 203, 0),  rgba(255, 192, 203, .7) 33%,  rgba(255, 192, 203, .7) 66%, rgba(255, 192, 203, 0));
-$titreColorBgDroite: linear-gradient(to right, rgba(255, 192, 203, .7), rgba(255, 192, 203, .7) 50%, rgba(255, 192, 203, 0));
 
+// Couleur d'Animation des Boutons du Menu Principal
+$menuHoverColorR: 255;
+$menuHoverColorG: 0;
+$menuHoverColorB: 0;
+// >>>
+$menuHoverBorder: rgb($menuHoverColorR, $menuHoverColorG, $menuHoverColorB);
+$menuHoverColorBg1: rgba($menuHoverColorR, $menuHoverColorG, $menuHoverColorB, 0);
+$menuHoverColorBg2: rgba($menuHoverColorR, $menuHoverColorG, $menuHoverColorB, .2);
+
+// Couleur sous les Titres
+$TitreColorR: 255;
+$TitreColorG: 192;
+$TitreColorB: 203;
+// >>>
+
+$titreColorBgCentre: linear-gradient(to right, 
+	rgba($TitreColorR, $TitreColorG, $TitreColorB, 0),
+	rgba($TitreColorR, $TitreColorG, $TitreColorB, .7) 33%,
+	rgba($TitreColorR, $TitreColorG, $TitreColorB, .7) 66%,
+	rgba($TitreColorR, $TitreColorG, $TitreColorB, 0));
+$titreColorBgDroite: linear-gradient(to right,
+	rgba($TitreColorR, $TitreColorG, $TitreColorB, .7),
+	rgba($TitreColorR, $TitreColorG, $TitreColorB, .7) 50%,
+	rgba($TitreColorR, $TitreColorG, $TitreColorB, 0));
+
+// Couleur des Autres Liens
 $lienColor: black;
-
 $becodeColorBg: #16232E;
 $becodeColorBorder: #63C3D1;
+$alsaBgColor: #4B4A4A;
+$alsaHoverFontColor: #ABC738;
+$socialColor: black;
+$socialHoverColor: rgba(178, 136, 135, 1);
 
+// Autres
 $ombres: 0px 1px 3px rgba(10, 0, 30, .5);

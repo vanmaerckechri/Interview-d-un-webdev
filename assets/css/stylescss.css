@@ -146,7 +146,8 @@ nav a {
 
 /* SOCIAL */
 footer a.social {
-  margin: 0 1em; }
+  margin: 0 1em;
+  color: black; }
   footer a.social span {
     transition: all 2s; }
     footer a.social span:hover {
@@ -158,7 +159,8 @@ footer a.social {
       animation-direction: alternate; }
 
 footer a#backHome {
-  margin-left: 3em; }
+  margin-left: 3em;
+  color: black; }
   footer a#backHome span:hover {
     color: #b28887;
     animation-name: backHome;

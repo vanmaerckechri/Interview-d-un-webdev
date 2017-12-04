@@ -32,9 +32,9 @@
 
 @keyframes menu {
 	0% {
-		background-color: $menuColorHoverBgInv;
+		background-color: $menuHoverColorBg1;
 	}
 	100% {
-		background-color: $menuColorHoverBgLight;
+		background-color: $menuHoverColorBg2;
 	}
 }
