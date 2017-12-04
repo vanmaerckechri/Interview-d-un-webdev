@@ -1,0 +1,91 @@
+$titreFont: 'Josefin Slab', serif;
+$paragrapheFont: 'Raleway', sans-serif;
+$logoFont: 'Lobster', cursive;
+$lienColor: black;
+$menuColor: pink;
+$ombres: 0px 1px 3px rgba(10, 0, 30, .5);
+$titreBgCentre: linear-gradient(to right, rgba(255, 192, 203, 0),  rgba(255, 192, 203, .7) 33%,  rgba(255, 192, 203, .7) 66%, rgba(255, 192, 203, 0));
+
+html
+{
+	background-color: white;
+}
+body
+{
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	max-width: 960px;
+	min-height: 100vh;
+	border-top: 3px solid;
+	border-color: $menuColor;
+}
+header
+{
+	padding: 0 2em;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	width: 100%;
+	background-color: $menuColor;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	box-shadow: $ombres;
+}
+#main
+{
+	margin: 0 auto;
+	padding: 0 1em;
+	max-width: 100%;
+	text-align: center;
+}
+footer
+{
+	text-align: center;
+	width: 100%;
+	padding-bottom: 1em;
+}
+section
+{
+	margin-bottom: 2em;
+}
+ul
+{
+	display: flex;
+}
+li
+{
+	list-style: none;
+	width: 100px;
+	height: 100%;
+	text-align: center;
+}
+h1
+{
+	margin-top: 1em;
+	margin-bottom: 1em;
+	font-size: 2em;
+    font-family: $titreFont;
+}
+h2
+{
+	margin-bottom: .3em;
+	background-image: $titreBgCentre;
+	font-size: 1.5em;
+	font-family: $titreFont;
+}
+p
+{
+	font-family: $paragrapheFont;
+	text-align: center;
+	font-weight: 400;
+	line-height: 1.5em;
+}
+a
+{
+	text-decoration: none;
+	white-space: nowrap;
+	color: $lienColor;
+	transition: all .5s;
+}
