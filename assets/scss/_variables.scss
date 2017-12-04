@@ -1,7 +1,18 @@
 $titreFont: 'Josefin Slab', serif;
 $paragrapheFont: 'Raleway', sans-serif;
 $logoFont: 'Lobster', cursive;
+
+$menuColorHoverBorder: rgb(255, 0, 0);
+$menuColorHoverBgInv: rgba(255, 0, 0, 0);
+$menuColorHoverBgLight: rgba(255, 0, 0, .2);
+
+$menuColor: rgb(255, 192, 203);
+$titreColorBgCentre: linear-gradient(to right, rgba(255, 192, 203, 0),  rgba(255, 192, 203, .7) 33%,  rgba(255, 192, 203, .7) 66%, rgba(255, 192, 203, 0));
+$titreColorBgDroite: linear-gradient(to right, rgba(255, 192, 203, .7), rgba(255, 192, 203, .7) 50%, rgba(255, 192, 203, 0));
+
 $lienColor: black;
-$menuColor: pink;
+
+$becodeColorBg: #16232E;
+$becodeColorBorder: #63C3D1;
+
 $ombres: 0px 1px 3px rgba(10, 0, 30, .5);
-$titreBgCentre: linear-gradient(to right, rgba(255, 192, 203, 0),  rgba(255, 192, 203, .7) 33%,  rgba(255, 192, 203, .7) 66%, rgba(255, 192, 203, 0));

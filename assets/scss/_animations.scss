@@ -32,9 +32,9 @@
 
 @keyframes menu {
 	0% {
-		background-color: rgba(255, 0, 0, 0);
+		background-color: $menuColorHoverBgInv;
 	}
 	100% {
-		background-color: rgba(255, 0, 0, .2);
+		background-color: $menuColorHoverBgLight;
 	}
 }
