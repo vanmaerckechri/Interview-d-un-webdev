@@ -22,15 +22,15 @@ Réalisé durant la formation [Becode](http://www.becode.org/). Synthèse du pre
 
 *HTML*
 
-   <nav  tabindex="0" role="navigation">
-     <ul>
-       <li><a href="index.html">|Accueil</a></li>
-       <li><a href="makingof.html">Making-of</a></li>
-       <li><a href="entreprise.html">Entreprise</a></li>
-       <li><a href="interview.html">Interview</a></li>
-       <li><a href="conclusion.html">Conclusion</a></li>
-     </ul>
-   </nav>
+    <nav  tabindex="0" role="navigation">
+        <ul>
+            <li><a href="index.html">|Accueil</a></li>
+            <li><a href="makingof.html">Making-of</a></li>
+            <li><a href="entreprise.html">Entreprise</a></li>
+            <li><a href="interview.html">Interview</a></li>
+            <li><a href="conclusion.html">Conclusion</a></li>
+        </ul>
+    </nav>
 
 *CSS*
 
