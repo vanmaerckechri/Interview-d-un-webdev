@@ -32,7 +32,7 @@ Réalisé durant la formation [Becode](http://www.becode.org/). Synthèse du pre
         </ul>
     </nav>
 
-*CSS*
+**CSS**
 
     nav
     {
