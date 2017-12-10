@@ -22,7 +22,7 @@ Réalisé durant la formation [Becode](http://www.becode.org/). Synthèse du pre
 
 *HTML*
 
-`
+'
 <nav  tabindex="0" role="navigation">
   <ul>
     <li><a href="index.html">|Accueil</a></li>
@@ -32,11 +32,11 @@ Réalisé durant la formation [Becode](http://www.becode.org/). Synthèse du pre
     <li><a href="conclusion.html">Conclusion</a></li>
  	</ul>
 </nav>
-`
+'
 
 *CSS*
 
-`
+'
 nav
 {
     position: relative;
@@ -88,4 +88,4 @@ nav:focus::before
     visibility: visible;
     pointer-events: auto;
 }
-`
+'
