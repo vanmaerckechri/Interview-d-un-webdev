@@ -1,4 +1,4 @@
-# INTERVIEW WEBDEV - RAPHAEL GOETTER (v0.8)
+# INTERVIEW WEBDEV - RAPHAEL GOETTER (en dev.)
 
 ## La Victime de l'Interview
 
@@ -8,7 +8,7 @@
 
 * [consignes détaillées](https://github.com/becodeorg/Swartz-promo-3/tree/master/Projects/interview-webdev)
 * Résumé des consignes:
-  * création d'un petit site multipages
+  * création d'un petit site de plusieurs pages
   * à héberger via GitHub Pages
   * mise en relation avec un professionnel
   * vérification du projet professionnel
