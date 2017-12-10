@@ -20,7 +20,7 @@ Réalisé durant la formation [Becode](http://www.becode.org/). Synthèse du pre
 
 ## Code pour le Menu Déroulant sans Javascript
 
-*HTML*
+**HTML**
 
     <nav  tabindex="0" role="navigation">
         <ul>
