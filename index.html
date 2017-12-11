@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <script src="/upup.min.js"></script>
 </head>
 <body id="accueil">
     <header>
@@ -40,11 +41,10 @@
         <a id="backHome" href="#"><span class="fa fa-arrow-circle-up fa-2x" aria-hidden="true"></span></a>
     </footer>
     <!-- le script pour api offline | les deux fichiers upup.min.js ET upup.sw.min.js DOIVENT être placé à la racine du site -->
-    <script src="/upup.min.js"></script>
     <script>
         UpUp.start({
           'content-url': 'offline.html'
-          'assets': ['assets/css/stylescss.css'] // pour plusieurs fichiers ['blabla.css','blibli.css']
+          'assets': ['assets/css/stylescss.css', 'assets/fontawesome/css/font-awesome.min.css']
         });
     </script>
     <!-- fin -->
