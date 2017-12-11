@@ -39,5 +39,14 @@
         <a class="social" href="https://github.com/vanmaerckechri" target="_blank"><span class="fa fa-github-alt fa-2x" aria-hidden="true"></span></a>
         <a id="backHome" href="#"><span class="fa fa-arrow-circle-up fa-2x" aria-hidden="true"></span></a>
     </footer>
+    <!-- le script pour api offline | les deux fichiers upup.min.js ET upup.sw.min.js DOIVENT être placé à la racine du site -->
+    <script src="/upup.min.js"></script>
+    <script>
+        UpUp.start({
+          'content-url': 'offline.html'
+          'assets': ['css/offline.css'] // pour plusieurs fichiers ['blabla.css','blibli.css']
+        });
+    </script>
+    <!-- fin -->
 </body>
 </html>
