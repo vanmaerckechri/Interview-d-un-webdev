@@ -1,7 +1,7 @@
 {
     "name": "Webdev Interview",
     "short_name": "WebInt",
-    "start_url": ".",
+    "start_url": "./?utm_source=web_app_manifest",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
