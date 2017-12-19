@@ -1,6 +1,8 @@
 {
-    "name": "Webdev Interview",
-    "short_name": "WebInt",
+    "name": "Webdev Interview - Raphaël Goetter",
+    "short_name": "WebInt R.Goetter",
+    "start_url": "index.html?utm_source=homescreen",
+    "scope" : "./",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
