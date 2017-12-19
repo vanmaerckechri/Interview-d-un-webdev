@@ -30,7 +30,7 @@ Réalisé durant la formation [Becode](http://www.becode.org/). Synthèse du pre
 
 **HTML**
 
-    <nav  tabindex="0" role="navigation">
+    <nav  tabindex="0">
         <ul>
             <li><a href="index.html">|Accueil</a></li>
             <li><a href="makingof.html">Making-of</a></li>
