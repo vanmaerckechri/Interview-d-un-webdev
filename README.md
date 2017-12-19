@@ -91,3 +91,5 @@ Réalisé durant la formation [Becode](http://www.becode.org/). Synthèse du pre
 [manifest.json et generation icones](https://realfavicongenerator.net)
 
 [service workers UpUp](https://www.talater.com/upup/getting-started-with-offline-first.html)
+
+[Article de Maître Yoda](https://dev.to/pixeline/the-easy-way-to-turn-a-website-into-a-progressive-web-app-77g)
