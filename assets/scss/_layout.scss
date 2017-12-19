@@ -100,7 +100,7 @@ footer
 	}
 }
 
-/* Liens Particuliers */
+/* LIENS PARTICULIERS */
 	/* Page Accueil */
 .becode
 {
@@ -117,28 +117,26 @@ footer
 		color: $becodeColorBg;
 	}
 }
+	/* Page MakingOf */
+#makingof
+{
+	p
+	{
+		@extend .liensRaph;
+	}
+
+}
 	/* Page Entreprise */
 #entreprise
 {
 	h2
 	{
 		background-image: none;
-		a
-		{
-			padding: .25em;
-			border-radius: 5px;
-			background-color: $alsaBgColor;
-			color: white;
-			transition: all .5s;
-			&:hover
-			{
-				background-color: black;
-				color: $alsaHoverFontColor;
-			}
-		}
+		@extend .liensRaph;
 	}
 }
-	/* PAGE INTERVIEW */
+
+/* PAGE INTERVIEW */
 #interview
 {
 	h1

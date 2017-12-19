@@ -42,3 +42,21 @@ $socialHoverColor: rgba(178, 136, 135, 1);
 
 // Autres
 $ombres: 0px 1px 3px rgba(10, 0, 30, .5);
+
+// Extend
+.liensRaph
+{
+	a
+	{
+		padding: .25em;
+		border-radius: 5px;
+		background-color: $alsaBgColor;
+		color: white;
+		transition: all .5s;
+		&:hover
+		{
+			background-color: black;
+			color: $alsaHoverFontColor;
+		}
+	}
+}
