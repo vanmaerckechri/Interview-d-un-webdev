@@ -85,3 +85,8 @@ Réalisé durant la formation [Becode](http://www.becode.org/). Synthèse du pre
         visibility: visible;
         pointer-events: auto;
     }
+
+## Liens Utiles PWA
+
+[manifest.json et generation icones](https://realfavicongenerator.net)
+[service workers UpUp](https://www.talater.com/upup/getting-started-with-offline-first.html)
