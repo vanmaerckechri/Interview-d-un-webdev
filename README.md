@@ -18,6 +18,14 @@
 
 Réalisé durant la formation [Becode](http://www.becode.org/). Synthèse du premier mois d'apprentissage (novembre 2017).
 
+## Liens Utiles PWA
+
+[manifest.json et generation icones](https://realfavicongenerator.net)
+
+[service workers UpUp](https://www.talater.com/upup/getting-started-with-offline-first.html)
+
+[Article de Maître Yoda](https://dev.to/pixeline/the-easy-way-to-turn-a-website-into-a-progressive-web-app-77g)
+
 ## Code pour le Menu Déroulant sans Javascript
 
 **HTML**
@@ -85,11 +93,3 @@ Réalisé durant la formation [Becode](http://www.becode.org/). Synthèse du pre
         visibility: visible;
         pointer-events: auto;
     }
-
-## Liens Utiles PWA
-
-[manifest.json et generation icones](https://realfavicongenerator.net)
-
-[service workers UpUp](https://www.talater.com/upup/getting-started-with-offline-first.html)
-
-[Article de Maître Yoda](https://dev.to/pixeline/the-easy-way-to-turn-a-website-into-a-progressive-web-app-77g)
