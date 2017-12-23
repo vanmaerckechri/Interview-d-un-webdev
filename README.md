@@ -1,4 +1,4 @@
-# INTERVIEW WEBDEV - RAPHAEL GOETTER (en dev.)
+# INTERVIEW WEBDEV - RAPHAEL GOETTER (v1.0)
 
 ## La Victime de l'Interview
 
@@ -32,11 +32,9 @@ Réalisé durant la formation [Becode](http://www.becode.org/). Synthèse du pre
 
     <nav  tabindex="0">
         <ul>
-            <li><a href="index.html">|Accueil</a></li>
-            <li><a href="makingof.html">Making-of</a></li>
-            <li><a href="entreprise.html">Entreprise</a></li>
-            <li><a href="interview.html">Interview</a></li>
-            <li><a href="conclusion.html">Conclusion</a></li>
+            <li><a href="#">Page 1</a></li>
+            <li><a href="#">Page 2</a></li>
+            <li><a href="#">Page 3</a></li>
         </ul>
     </nav>
 
