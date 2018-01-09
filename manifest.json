@@ -1,6 +1,8 @@
 {
     "name": "Interview Web Developer Raphaêl Goetter",
-    "short_name" : "WD Int R.G.",
+    "short_name" : "RaphGoetter",
+    "start_url": "index.html?utm_source=homescreen",
+    "scope" : "./",
     "icons": [
         {
             "src": "android-chrome-192x192.png",
