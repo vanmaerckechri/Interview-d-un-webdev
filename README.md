@@ -55,7 +55,6 @@ Réalisé durant la formation [Becode](http://www.becode.org/). Synthèse du pre
         transition: visibility 0.5s;
         width: 100%;
         background-color: pink;
-        flex-direction: column;
     }
     nav ul li a
     {
